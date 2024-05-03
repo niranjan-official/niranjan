@@ -4,11 +4,11 @@ import Image from 'next/image'
 const Main = () => {
   return (
     <div className='h-full flex flex-col justify-center px-4 md:px-24'>
-         <div className='flex flex-col z-10 md:pt-20'>
+         <div className='flex flex-col z-10 md:pt-8 xl:pt-20'>
             <span className='text-gray-400 text-3xl pl-2'>
                 Hi! I'M
             </span>
-            <h1 className='flex flex-col text-4xl md:text-9xl boombox mt-5'>
+            <h1 className='flex flex-col text-4xl md:text-7xl lg:text-8xl xl:text-9xl boombox mt-5'>
                 <span className='text-primary'>NIRANJAN</span>
                 <span className='text-secondary mt-1'>SABARINATH</span>
             </h1>
@@ -23,8 +23,8 @@ const Main = () => {
             <Image src={'/assets/socials/mail.svg'} width={35} height={35}/>
           </div>
         </div>
-        <div className='w-full bg-red-500 overflow-x-hidden'>
-         <div className='h-3/4 md:h-full absolute top-10 -right-80 rotating-div overflow-hidden'>
+        <div className='w-full bg-red-500'>
+         <div className='h-3/4 md:h-full absolute top-10 -right-80 rotating-div'>
             <Image width={600} height={600} style={{height:'100%',width:'auto'}} src={'/assets/bg/mandala.png'}/>
          </div>
         </div>
